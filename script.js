@@ -22,7 +22,7 @@ const numberOfBooksRead = (library) => {
 	library.forEach((element)=>{
 		if(element.readingStatus==true){
 
-			++count;
+			count+=1;
 		}
 	})
 
