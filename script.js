@@ -22,13 +22,13 @@ const numberOfBooksRead = (library) => {
 	library.forEach((element)=>{
 		if(element.readingStatus==true){
 
-			count+=1;
+			++count;
 		}
 	})
 
 	return count;
-};
+}
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+alert(numberOfBooksRead(library));
